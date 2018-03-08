@@ -84,9 +84,9 @@
 #supernerd-widget-music-player-coffee {
   top:0px;
   left:0px;
-  width:240px;
+  width:600px;
   display:inline;
-  white-space: nowrap;
+  white-space: wrap;
   text-overflow:ellipsis;
   overflow: hidden;
 }

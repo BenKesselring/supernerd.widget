@@ -9,7 +9,7 @@ command: "echo " +
          "$(#{ commands.mem }):::" +
          "$(#{ commands.hdd }):::"
 
-refreshFrequency: false
+refreshFrequency: 15000
 
 render: ( ) ->
   """

@@ -41,7 +41,7 @@ command: "echo " +
          "$(#{ commands.weather }):::"
 
 
-refreshFrequency: false
+refreshFrequency: 15000
 
 render: ( ) ->
   """

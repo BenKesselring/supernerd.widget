@@ -7,7 +7,7 @@ commands =
 command: "echo " +
       "$(#{ commands.running})"
 
-refreshFrequency: false
+refreshFrequency: 15000
 
 render: ( ) ->
   """

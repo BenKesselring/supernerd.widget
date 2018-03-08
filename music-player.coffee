@@ -14,7 +14,7 @@ command: "echo " +
          "$(#{ commands.itunes}):::" +
          "$(#{ commands.spotify})"
 
-refreshFrequency: false
+refreshFrequency: 5000
 
 render: ( ) ->
   """
