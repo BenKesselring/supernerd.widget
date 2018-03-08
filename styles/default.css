@@ -24,14 +24,14 @@
 .widg, .playing-output {
   color:var(--foreground);
   font-family:'Menlo';
-  font-size:10px;
+  font-size:12px;
   font-smoothing:antialiasing;
   z-index:1;
   float:left;
   padding-left:8px;
   padding-right:8px;
-  padding-bottom:4px;
-  padding-top:4px;
+  padding-bottom:3px;
+  padding-top:3px;
   display:inline;
 }
 
